@@ -2,7 +2,7 @@
   "name": "eslint-starter",
   "version": "1.0.0",
   "description": "eslint",
-  "main": "index.js",
+  "main": "tz.js",
   "scripts": {},
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
     "eslint": "^8.24.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "yargs": "^17.7.1"
   }
 }
